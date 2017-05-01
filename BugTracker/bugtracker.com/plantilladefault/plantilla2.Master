@@ -20,7 +20,7 @@
         String[] usuario = null;
         if (Session["Usuario"] == null)
         {
-            Response.Redirect("login.aspx?msg=3", false);
+            Response.Redirect("../login.aspx?msg=3", false);
         }
         else
         {
