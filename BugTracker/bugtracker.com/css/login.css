@@ -1,0 +1,167 @@
+﻿
+div .error {
+    margin: 0 auto;
+    width: 400px;
+    margin-top: 20px;
+    border: 1px dashed #fff;
+    background: rgba(156, 8, 8, 0.8);
+    color: #fff;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+    div .error .icon-close {
+        width: 20px;
+        display: inline-block;
+        font-size: 15px;
+        text-align: right;
+    }
+
+    div .error p {
+        font-size: 15px;
+        width: 250px;
+        display: inline-block;
+        font-family: 'Montserrat-Bold';
+    }
+
+div .warning {
+    margin: 0 auto;
+    width: 400px;
+    margin-top: 20px;
+    border: 1px dashed #000000;
+    background: rgb(254, 249, 0);
+    color: #000;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+    div .warning .icon-warning {
+        width: 20px;
+        display: inline-block;
+        font-size: 40px;
+        text-align: right;
+    }
+
+    div .warning p {
+        font-size: 15px;
+        width: 250px;
+        display: inline-block;
+        font-family: 'Montserrat-Bold';
+    }
+
+div .login {
+    margin-top: 0px;
+    width: 100%;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.95);
+    color: #001926;
+    -moz-box-shadow: inset 0px 1px 0px 0px #54a3f7;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #54a3f7;
+}
+
+    div .login h2 {
+        font-size: 50px;
+        padding: 10px 0px;
+        font-family: 'Montserrat-Bold';
+        border-bottom: 1px solid #808080;
+        background: rgba(0, 25, 38, 0.80);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        color: #fff;
+    }
+
+    div .login p {
+        color: #001926;
+        font-size: 20px;
+        margin: 10px 0px 0px 0px;
+        padding-left: 20px;
+        width: 100%;
+        text-align: left;
+        font-family: 'OpenSans-Regular';
+        font-weight: bolder;
+    }
+
+    div .login .textbox {
+        margin: 2px 0px 20px 0px;
+        width: 460px;
+        height: 30px;
+        font-size: 22px;
+        text-align: center;
+        color: #001926;
+        border: none;
+        border-bottom: 1px solid #00324d;
+        background: none;
+        font-family: 'OpenSans-Regular';
+    }
+
+        div .login .textbox:focus, main .login .textbox:active {
+            border-bottom: 2px solid #007dc1;
+        }
+
+    div .login .Button {
+        margin-bottom: 20px;
+        width: 300px;
+        height: 60px;
+        -moz-box-shadow: inset 0px 1px 0px 0px #54a3f7;
+        -webkit-box-shadow: inset 0px 1px 0px 0px #54a3f7;
+        box-shadow: inset 0px 1px 0px 0px #54a3f7;
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #007dc1), color-stop(1, #0061a7));
+        background: -moz-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+        background: -webkit-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+        background: -o-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+        background: linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#007dc1', endColorstr='#0061a7',GradientType=0);
+        background-color: #007dc1;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        border: 1px solid #124d77;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-family: 'OpenSans-Regular';
+        font-size: 20px;
+        padding: 6px 24px;
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #154682;
+    }
+
+        div .login .Button:hover {
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0061a7), color-stop(1, #007dc1));
+            background: -moz-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+            background: -webkit-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+            background: -o-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+            background: linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0061a7', endColorstr='#007dc1',GradientType=0);
+            background-color: #0061a7;
+            font-size: 25px;
+        }
+
+        div .login .Button:active {
+            position: relative;
+            top: 1px;
+        }
+
+div a {
+    text-decoration: none;
+    text-align: right;
+    color: #99cbe6;
+}
+
+    div a:hover {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    div a p {
+        padding: 5px;
+        font-family: 'OpenSans-Regular';
+    }

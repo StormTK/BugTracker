@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="D68E19FD-E6C9-1FA8-E4CF-8EAF44359347">
+<createdBy>StormTK</createdBy>
+<createdTime>2017-04-20 19:16:23 UTC</createdTime>
+<ownerDesignName>ER_Bugtracker</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

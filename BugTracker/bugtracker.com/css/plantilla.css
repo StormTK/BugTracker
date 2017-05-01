@@ -1,0 +1,193 @@
+﻿@font-face {
+    font-family: 'Baloo-Regular';
+    src: url('../fonts/Baloo-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../fonts/Montserrat-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    background: #00324d;
+    height: 70px;
+    position: fixed;
+}
+
+    header div {
+        display: inline-block;
+    }
+
+    header .encabezado {
+        padding-top: 2px;
+        left: calc(50% - 141px);
+        position: absolute;
+    }
+
+        header .encabezado a {
+            text-decoration: none;
+        }
+
+            header .encabezado a h1 {
+                font-size: 45px;
+                text-align: center;
+                font-weight: bolder;
+                color: #fff;
+                text-shadow: 0px 2px 0px #000000;
+                font-family: 'Baloo-Regular', Arial;
+            }
+
+                header .encabezado a h1 img {
+                    width: 40px;
+                    height: 40px;
+                }
+
+    header .menu_bar {
+        position: absolute;
+        width: 80px;
+        height: 70px;
+        right: 10px;
+    }
+
+        header .menu_bar a {
+            text-decoration: none;
+            width: 80px;
+            height: 70px;
+            position: absolute;
+        }
+
+            header .menu_bar a:hover {
+                background: #00649a;
+            }
+
+            header .menu_bar a .icon-menu {
+                font-size: 50px;
+                color: #fff;
+                position: absolute;
+                top: 7px;
+                left: 15px;
+            }
+
+    header nav {
+        width: 300px;
+        height: calc(100% - 70px);
+        top: 70px;
+        right: -100%;
+        margin: 0;
+        position: fixed;
+        z-index: 1000;
+        background: #00324d;
+        overflow-y: auto;
+        text-align: left;
+        font-family: 'Roboto-Regular';
+    }
+
+        header nav ul {
+            list-style: none;
+        }
+
+            header nav ul li {
+                display: block;
+                border-bottom: 1px solid rgba(255,255,255,0.15);
+                position: relative;
+            }
+
+                header nav ul li:hover {
+                    background: #00649a;
+                }
+
+                header nav ul li a {
+                    color: #fff;
+                    display: block;
+                    text-decoration: none;
+                    padding: 20px;
+                    font-size: 18px;
+                }
+
+                    header nav ul li a span {
+                        margin-right: 20px;
+                        font-size: 25px;
+                    }
+
+/*
+                header nav ul li a .children{
+                    display: none;
+                    width: 100%;
+                    position: relative;
+                    background: #011826;
+                    position: absolute;
+                }
+                
+                header nav ul li .children li {
+                    display: block;
+                    overflow: hidden;
+                    border-bottom: 1px solid rgba(255,255,255,.5);
+                }
+
+                    header nav ul li .children li a {
+                        margin-left: 20px;
+                        display: block;
+                    }
+                        
+
+                header nav ul li .children li a span {
+                    float: right;
+                    position: relative;
+                    top: 3px;
+                    margin-right: 0;
+                    margin-left: 10px;
+                }
+
+
+                header nav ul li .caret {
+                    float: right;
+                    position: relative;
+                    top: 3px;
+                    margin-left: 10px;
+                    margin-right: 0px;
+                }
+*/
+
+main {
+    padding-top: 70px;
+}
+
+
+footer {
+    border-top: solid 5px #19465e;
+    background: #00324d;
+    text-align: center;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+    footer img {
+        width: 100px;
+        height: 100px;
+        padding: 10px 15px;
+    }
+
+    footer p {
+        padding: 20px 0px;
+        width: 100%;
+        background: #000000;
+        font-family: 'Roboto';
+
+    }

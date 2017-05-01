@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="F5F35404-F94F-7930-0755-CAA47E66CCF5">
+<createdBy>StormTK</createdBy>
+<createdTime>2017-04-20 21:35:09 UTC</createdTime>
+<ownerDesignName>ER_Bugtracker</ownerDesignName>
+<engineerTo>
+<item key="CD18CFF0-EF66-94D8-8CA2-124ECB4EE70B" value="true"/>
+</engineerTo>
+<sourcePk>4609CF1B-42C1-5066-E280-2AC1858ACAB8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BC7D4E47-BB35-5613-3F8E-299BCCA1D254</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5BD79399-B924-3C61-1276-D349ABA80456</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

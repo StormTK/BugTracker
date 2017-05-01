@@ -1,0 +1,58 @@
+﻿.panel {
+    width: 900px;
+    margin: 10px auto;
+}
+
+    .panel h3 {
+        margin-top: 15px;
+        font-family: 'Montserrat';
+        background: #00324d;
+        color: #fff;
+    }
+
+        .panel h3:focus, .panel h3:active {
+            color: #ffd800;
+            background: #00324d;
+        }
+
+    .panel div {
+        height: 100%;
+        overflow: hidden;
+    }
+
+        .panel div .boton {
+            width: 120px;
+            background: #00324d;
+            text-align: center;
+            border-radius: 7px;
+            -webkit-border-radius: 7px;
+            -moz-border-radius: 7px;
+            display: inline-block;
+        }
+
+            .panel div .boton:hover {
+                background: #004367;
+            }
+
+        .panel div a .boton:active,
+        .panel div a .boton:focus {
+            position: relative;
+            top: 2px;
+        }
+
+        .panel div .boton a {
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+        }
+
+        .panel div .boton p span {
+            font-size: 60px;
+        }
+
+        .panel div .boton p {
+            color: #fff;
+            font-family: 'Montserrat';
+            font-size: 12px;
+            padding: 5px 0px;
+        }

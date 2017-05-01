@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5BD79399-B924-3C61-1276-D349ABA80456" name="usuario">
+<createdBy>StormTK</createdBy>
+<createdTime>2017-04-20 21:32:34 UTC</createdTime>
+<ownerDesignName>ER_Bugtracker</ownerDesignName>
+<engineerTo>
+<item key="CD18CFF0-EF66-94D8-8CA2-124ECB4EE70B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idUsuario" id="E438561B-F237-4F4D-760E-53C115B179A9">
+<createdBy>StormTK</createdBy>
+<createdTime>2017-04-20 21:32:50 UTC</createdTime>
+<ownerDesignName>ER_Bugtracker</ownerDesignName>
+<engineerTo>
+<item key="CD18CFF0-EF66-94D8-8CA2-124ECB4EE70B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="7D40E7BC-203A-3F52-4C35-18CE993BC056">
+<createdBy>StormTK</createdBy>
+<createdTime>2017-04-20 21:33:01 UTC</createdTime>
+<ownerDesignName>ER_Bugtracker</ownerDesignName>
+<engineerTo>
+<item key="CD18CFF0-EF66-94D8-8CA2-124ECB4EE70B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido" id="5AE59C00-275F-CBA9-0296-CD58B7F30338">
+<createdBy>StormTK</createdBy>
+<createdTime>2017-04-20 21:33:24 UTC</createdTime>
+<ownerDesignName>ER_Bugtracker</ownerDesignName>
+<engineerTo>
+<item key="CD18CFF0-EF66-94D8-8CA2-124ECB4EE70B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="426481DD-CA5C-BC06-5C91-CECCC2976574">
+<createdBy>StormTK</createdBy>
+<createdTime>2017-04-20 21:33:39 UTC</createdTime>
+<ownerDesignName>ER_Bugtracker</ownerDesignName>
+<engineerTo>
+<item key="CD18CFF0-EF66-94D8-8CA2-124ECB4EE70B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Contraseña" id="DAEC741A-64AD-83C3-9FD9-564CF04C129E">
+<createdBy>StormTK</createdBy>
+<createdTime>2017-04-20 21:33:50 UTC</createdTime>
+<ownerDesignName>ER_Bugtracker</ownerDesignName>
+<engineerTo>
+<item key="CD18CFF0-EF66-94D8-8CA2-124ECB4EE70B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nacimiento" id="390746D8-9C73-1D7F-3D8D-B03DA6BFB00A">
+<createdBy>StormTK</createdBy>
+<createdTime>2017-04-20 21:34:02 UTC</createdTime>
+<ownerDesignName>ER_Bugtracker</ownerDesignName>
+<engineerTo>
+<item key="CD18CFF0-EF66-94D8-8CA2-124ECB4EE70B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direccion" id="8BE28824-8DED-304D-FD94-A4008BDD0DA1">
+<createdBy>StormTK</createdBy>
+<createdTime>2017-04-20 21:34:18 UTC</createdTime>
+<ownerDesignName>ER_Bugtracker</ownerDesignName>
+<engineerTo>
+<item key="CD18CFF0-EF66-94D8-8CA2-124ECB4EE70B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono" id="89016A11-7B11-5F5D-9231-138CE8F6099E">
+<createdBy>StormTK</createdBy>
+<createdTime>2017-04-20 21:34:36 UTC</createdTime>
+<ownerDesignName>ER_Bugtracker</ownerDesignName>
+<engineerTo>
+<item key="CD18CFF0-EF66-94D8-8CA2-124ECB4EE70B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idRol" id="EFAEA90F-E636-9770-D6F5-F97FC9EF13A2">
+<createdBy>StormTK</createdBy>
+<createdTime>2017-04-20 21:35:09 UTC</createdTime>
+<generatorID>F5F35404-F94F-7930-0755-CAA47E66CCF5</generatorID>
+<ownerDesignName>ER_Bugtracker</ownerDesignName>
+<engineerTo>
+<item key="CD18CFF0-EF66-94D8-8CA2-124ECB4EE70B" value="true"/>
+</engineerTo>
+<referedAttribute>52F05662-7D15-D440-87AB-07C0CF38ADD3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EC217F02-7846-41B8-DD6A-744B0BAC6AF1" name="usuario PK">
+<createdBy>StormTK</createdBy>
+<createdTime>2017-04-20 21:33:00 UTC</createdTime>
+<ownerDesignName>ER_Bugtracker</ownerDesignName>
+<engineerTo>
+<item key="CD18CFF0-EF66-94D8-8CA2-124ECB4EE70B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E438561B-F237-4F4D-760E-53C115B179A9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

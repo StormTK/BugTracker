@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="931A7250-9A90-A946-66D9-3E1C348AFD86" mainViewID="2858AF95-E37C-2C29-57B8-BACA019E2417">
+<createdBy>StormTK</createdBy>
+<createdTime>2017-04-20 19:16:23 UTC</createdTime>
+<ownerDesignName>ER_Bugtracker</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

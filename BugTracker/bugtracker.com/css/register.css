@@ -1,0 +1,305 @@
+﻿main {
+    padding-top: 70px;
+}
+
+    main h2 {
+        padding-top: 20px;
+        text-align: center;
+        font-size: 35px;
+        font-family: 'Montserrat-Bold';
+    }
+
+    main .obligatorio {
+        color: #850909;
+        text-align: center;
+        font-family: 'Roboto';
+        padding-bottom: 10px;
+        font-weight: bolder;
+    }
+
+    main .error {
+        margin: 0 auto;
+        width: 400px;
+        margin-top: 20px;
+        border: 1px dashed #fff;
+        background: rgba(156, 8, 8, 0.8);
+        color: #fff;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        padding: 10px 0px;
+        text-align: center;
+    }
+
+        main .error .icon-close {
+            width: 20px;
+            display: inline-block;
+            font-size: 15px;
+            text-align: right;
+        }
+
+        main .error p {
+            font-size: 15px;
+            width: 250px;
+            display: inline-block;
+            font-family: 'Montserrat-Bold';
+        }
+
+    main .warning {
+        margin: 0 auto;
+        width: 400px;
+        margin-top: 20px;
+        border: 1px dashed #000000;
+        background: rgb(254, 249, 0);
+        color: #000;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        padding: 10px 0px;
+        text-align: center;
+    }
+
+        main .warning .icon-warning {
+            width: 20px;
+            display: inline-block;
+            font-size: 40px;
+            text-align: right;
+        }
+
+        main .warning p {
+            font-size: 15px;
+            width: 250px;
+            display: inline-block;
+            font-family: 'Montserrat-Bold';
+        }
+
+    main .checked {
+        margin: 0 auto;
+        width: 400px;
+        margin-top: 20px;
+        border: 1px dashed #fff;
+        background: rgb(6, 143, 9);
+        color: #fff;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        padding: 10px 0px;
+        text-align: center;
+    }
+
+        main .checked .icon-checked {
+            width: 20px;
+            display: inline-block;
+            font-size: 40px;
+            text-align: right;
+        }
+
+        main .checked p {
+            font-size: 15px;
+            width: 300px;
+            display: inline-block;
+            font-family: 'Montserrat-Bold';
+        }
+
+            main .checked p a {
+                text-decoration: none;
+                color: rgb(0, 140, 217);
+            }
+
+                main .checked p a:hover {
+                    color: #00324d;
+                }
+
+    main .user {
+        border: 1px solid #000000;
+        width: 700px;
+        margin: 10px auto;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+    }
+
+        main .user .info {
+            text-align: center;
+        }
+
+        main .user .titulo {
+            background: #00324d;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            color: #fff;
+            padding: 10px;
+        }
+
+            main .user .titulo span {
+                font-size: 25px;
+                display: inline-block;
+            }
+
+            main .user .titulo h3 {
+                display: inline-block;
+                font-size: 25px;
+                font-family: 'Montserrat-Bold';
+                padding-left: 10px;
+            }
+
+        main .user .info .nombre {
+            padding: 10px 0px;
+            width: 680px;
+            padding-left: 20px;
+            display: inline-block;
+            border-bottom: 1px dashed rgba(0, 50, 77, 0.42);
+        }
+
+            main .user .info .nombre p {
+                font-size: 20px;
+                color: #00324d;
+                text-align: left;
+                padding-bottom: 5px;
+                font-family: 'Roboto';
+                font-weight: bolder;
+            }
+
+            main .user .info .nombre .textbox {
+                width: 320px;
+                height: 25px;
+                font-size: 20px;
+                padding-left: 5px;
+                border: none;
+                border-bottom: 2px solid rgba(0, 50, 77, 0.9);
+            }
+
+                main .user .info .nombre .textbox:focus,
+                main .user .info .nombre .textbox:active {
+                    border-bottom: 2px solid rgb(0, 140, 217);
+                }
+
+        main .user .info .dato {
+            margin: 10px 0px;
+            width: 680px;
+            padding: 10px 0px;
+            padding-left: 20px;
+            border-bottom: 1px dashed rgba(0, 50, 77, 0.42);
+        }
+
+            main .user .info .dato p {
+                width: 110px;
+                font-size: 20px;
+                color: #00324d;
+                display: inline-block;
+                text-align: left;
+                font-family: 'Roboto';
+                font-weight: bolder;
+            }
+
+            main .user .info .dato .textbox {
+                margin-left: 10px;
+                display: inline-block;
+                width: 500px;
+                height: 30px;
+                font-size: 25px;
+                padding-left: 10px;
+                border: none;
+                border-bottom: 2px solid rgba(0, 50, 77, 0.9);
+                text-align: center;
+            }
+
+        main .user .info select {
+            width: 600px;
+            height: 200px;
+            margin-top: 10px;
+            text-align: center;
+            font-size: 15px;
+            font-family: 'Open Sans';
+        }
+
+        main .user .info .dato .Proyectotitulo {
+            display: block;
+        }
+
+        main .user .info .dato input:focus,
+        main .user .info .dato input:active {
+            border-bottom: 2px solid rgb(0, 140, 217);
+        }
+
+        main .user .info .dato .Proyecto {
+            display: block;
+            width: 630px;
+        }
+
+        main .user .info .Boton_Register {
+            width: 300px;
+            -moz-box-shadow: inset -1px -2px 7px -5px #ffffff;
+            -webkit-box-shadow: inset -1px -2px 7px -5px #ffffff;
+            box-shadow: inset -1px -2px 7px -5px #ffffff;
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #00324d), color-stop(1, #19465e));
+            background: -moz-linear-gradient(top, #00324d 5%, #19465e 100%);
+            background: -webkit-linear-gradient(top, #00324d 5%, #19465e 100%);
+            background: -o-linear-gradient(top, #00324d 5%, #19465e 100%);
+            background: linear-gradient(to bottom, #00324d 5%, #19465e 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00324d', endColorstr='#19465e',GradientType=0);
+            background-color: #00324d;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+            border: 2px solid #ffffff;
+            display: inline-block;
+            cursor: pointer;
+            color: #ffffff;
+            font-family: Verdana;
+            font-size: 15px;
+            font-weight: bold;
+            padding: 10px;
+            text-decoration: none;
+            text-shadow: 1px 3px 26px #000;
+            margin: 10px 0px;
+        }
+
+    main .botones {
+        width: 700px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+        main .botones .Boton_Register {
+            width: 200px;
+            -moz-box-shadow: inset -1px -2px 7px -5px #ffffff;
+            -webkit-box-shadow: inset -1px -2px 7px -5px #ffffff;
+            box-shadow: inset -1px -2px 7px -5px #ffffff;
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #00324d), color-stop(1, #19465e));
+            background: -moz-linear-gradient(top, #00324d 5%, #19465e 100%);
+            background: -webkit-linear-gradient(top, #00324d 5%, #19465e 100%);
+            background: -o-linear-gradient(top, #00324d 5%, #19465e 100%);
+            background: linear-gradient(to bottom, #00324d 5%, #19465e 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00324d', endColorstr='#19465e',GradientType=0);
+            background-color: #00324d;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+            border: 2px solid #ffffff;
+            display: inline-block;
+            cursor: pointer;
+            color: #ffffff;
+            font-family: Verdana;
+            font-size: 15px;
+            font-weight: bold;
+            padding: 10px;
+            text-decoration: none;
+            text-shadow: 1px 3px 26px #000;
+            margin-bottom: 40px;
+        }
+
+            main .botones .Boton_Register:hover {
+                background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #19465e), color-stop(1, #00324d));
+                background: -moz-linear-gradient(top, #19465e 5%, #00324d 100%);
+                background: -webkit-linear-gradient(top, #19465e 5%, #00324d 100%);
+                background: -o-linear-gradient(top, #19465e 5%, #00324d 100%);
+                background: linear-gradient(to bottom, #19465e 5%, #00324d 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#19465e', endColorstr='#00324d',GradientType=0);
+                background-color: #19465e;
+            }
+
+            main .botones .Boton_Register:active {
+                position: relative;
+                top: 1px;
+            }

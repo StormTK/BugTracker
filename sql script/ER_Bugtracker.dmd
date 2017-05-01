@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ER_Bugtracker" id="3D8A277B-EB39-ECC5-B631-1DBF02496700" version="3.5">
+<createdBy>StormTK</createdBy>
+<createdTime>2017-04-20 19:16:22 UTC</createdTime>
+<ownerDesignName>ER_Bugtracker</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3D8A277B-EB39-ECC5-B631-1DBF02496700</designId>
+</OSDM_Design>
