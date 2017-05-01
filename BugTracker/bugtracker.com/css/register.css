@@ -6,7 +6,7 @@
         padding-top: 20px;
         text-align: center;
         font-size: 35px;
-        font-family: 'Montserrat-Bold';
+        font-family: 'Montserrat';
     }
 
     main .obligatorio {
@@ -42,7 +42,7 @@
             font-size: 15px;
             width: 250px;
             display: inline-block;
-            font-family: 'Montserrat-Bold';
+            font-family: 'Montserrat';
         }
 
     main .warning {
@@ -70,7 +70,7 @@
             font-size: 15px;
             width: 250px;
             display: inline-block;
-            font-family: 'Montserrat-Bold';
+            font-family: 'Montserrat';
         }
 
     main .checked {
@@ -78,7 +78,7 @@
         width: 400px;
         margin-top: 20px;
         border: 1px dashed #fff;
-        background: rgb(6, 143, 9);
+        background: rgb(4, 88, 4);
         color: #fff;
         -moz-border-radius: 3px;
         -webkit-border-radius: 3px;
@@ -98,16 +98,16 @@
             font-size: 15px;
             width: 300px;
             display: inline-block;
-            font-family: 'Montserrat-Bold';
+            font-family: 'Montserrat';
         }
 
             main .checked p a {
                 text-decoration: none;
-                color: rgb(0, 140, 217);
+                color: rgb(187, 184, 0);
             }
 
                 main .checked p a:hover {
-                    color: #00324d;
+                    color: #e7f800;
                 }
 
     main .user {
@@ -139,7 +139,7 @@
             main .user .titulo h3 {
                 display: inline-block;
                 font-size: 25px;
-                font-family: 'Montserrat-Bold';
+                font-family: 'Montserrat';
                 padding-left: 10px;
             }
 
@@ -210,7 +210,7 @@
             margin-top: 10px;
             text-align: center;
             font-size: 15px;
-            font-family: 'Open Sans';
+            font-family: 'OpenSans';
         }
 
         main .user .info .dato .Proyectotitulo {

@@ -4,17 +4,17 @@
 }
 
 @font-face {
-    font-family: 'Baloo-Regular';
+    font-family: 'Baloo';
     src: url('../fonts/Baloo-Regular.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Montserrat-Bold';
+    font-family: 'Montserrat';
     src: url('../fonts/Montserrat-Bold.otf') format('opentype');
 }
 
 @font-face {
-    font-family: 'OpenSans-Regular';
+    font-family: 'OpenSans';
     src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
 }
 
@@ -30,7 +30,7 @@ div {
     div .logo {
         width: 500px;
         margin: 0px auto;
-        font-family: 'Baloo-Regular', Arial;
+        font-family: 'Baloo', Arial;
     }
 
         div .logo p {

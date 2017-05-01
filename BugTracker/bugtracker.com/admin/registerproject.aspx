@@ -88,7 +88,7 @@
         </div>
         <div class="info">
             <asp:ListBox runat="server" ID="UsuariosTotales" CssClass="textbox" SelectionMode="Multiple" DataSourceID="SqlDataSource1" DataTextField="Participante" DataValueField="idUsuario"></asp:ListBox>
-            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:BUGTRACKERConnectionString %>" SelectCommand="SELECT  USUARIO.idUsuario, USUARIO.Nombre + ' ' + USUARIO.Apellido + ' - ' + ROL.Nombre AS Participante FROM ROL INNER JOIN USUARIO ON ROL.idRol = USUARIO.Rol WHERE USUARIO.Rol > 2"></asp:SqlDataSource>
+            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="Data Source=FELIPEKD-PC;Initial Catalog=BUGTRACKER;Integrated Security=True" SelectCommand="SELECT  USUARIO.idUsuario, USUARIO.Nombre + ' ' + USUARIO.Apellido + ' - ' + ROL.Nombre AS Participante FROM ROL INNER JOIN USUARIO ON ROL.idRol = USUARIO.Rol WHERE USUARIO.Rol > 2"></asp:SqlDataSource>
             <asp:Button runat="server" Text="<< Quitar Usuarios Asignados" CssClass="Boton_Register" OnClick="Boton_Regresar" />
             <asp:Button runat="server" Text="Asignar Usuarios Seleccionado >>" CssClass="Boton_Register" OnClick="Boton_Asignar" />
             <asp:ListBox ID="UsuariosRegistrados" runat="server" SelectionMode="Multiple"></asp:ListBox>

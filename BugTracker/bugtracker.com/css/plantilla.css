@@ -1,20 +1,20 @@
 ﻿@font-face {
-    font-family: 'Baloo-Regular';
+    font-family: 'Baloo';
     src: url('../fonts/Baloo-Regular.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Montserrat-Bold';
+    font-family: 'Montserrat';
     src: url('../fonts/Montserrat-Bold.otf') format('opentype');
 }
 
 @font-face {
-    font-family: 'OpenSans-Regular';
+    font-family: 'OpenSans';
     src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Roboto-Regular';
+    font-family: 'Roboto';
     src: url('../fonts/Roboto-Regular.ttf') format('truetype');
 }
 
@@ -28,11 +28,9 @@ header {
     background: #00324d;
     height: 70px;
     position: fixed;
+    z-index: 100;
+    display: inline-block;
 }
-
-    header div {
-        display: inline-block;
-    }
 
     header .encabezado {
         padding-top: 2px;
@@ -50,7 +48,7 @@ header {
                 font-weight: bolder;
                 color: #fff;
                 text-shadow: 0px 2px 0px #000000;
-                font-family: 'Baloo-Regular', Arial;
+                font-family: 'Baloo', Arial;
             }
 
                 header .encabezado a h1 img {
@@ -95,7 +93,7 @@ header {
         background: #00324d;
         overflow-y: auto;
         text-align: left;
-        font-family: 'Roboto-Regular';
+        font-family: 'Roboto';
     }
 
         header nav ul {
@@ -189,5 +187,4 @@ footer {
         width: 100%;
         background: #000000;
         font-family: 'Roboto';
-
     }

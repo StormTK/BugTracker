@@ -50,14 +50,14 @@
 
             .usuario .user_header .nombre h2 {
                 color: #ffffff;
-                font-family: 'Montserrat-Bold';
+                font-family: 'Montserrat';
                 font-size: 50px;
                 font-weight: bolder;
             }
 
             .usuario .user_header .nombre p {
                 color: #ffd800;
-                font-family: 'Open Sans';
+                font-family: 'OpenSans';
                 font-size: 25px;
                 font-weight: bolder;
             }
@@ -72,7 +72,7 @@
         }
 
             .usuario .informacion .dato p {
-                font-family: Roboto;
+                font-family: 'Roboto';
                 width: 250px;
                 padding: 10px 0px 10px 50px;
                 font-size: 25px;

@@ -110,14 +110,14 @@
                         {
                 %>
                 <asp:DropDownList runat="server" ID="cargo" DataSourceID="BuscarCargo" DataTextField="Nombre" DataValueField="idRol" CssClass="textbox"></asp:DropDownList>
-                <asp:SqlDataSource ID="BuscarCargo" runat="server" ConnectionString="<%$ ConnectionStrings:BUGTRACKERConnectionString %>" SelectCommand="SELECT [idRol], [Nombre] FROM [ROL] WHERE [idRol] > 1 ORDER BY [idRol] "></asp:SqlDataSource>
+                <asp:SqlDataSource ID="BuscarCargo" runat="server" ConnectionString="Data Source=FELIPEKD-PC;Initial Catalog=BUGTRACKER;Integrated Security=True" SelectCommand="SELECT [idRol], [Nombre] FROM [ROL] WHERE [idRol] > 1 ORDER BY [idRol] "></asp:SqlDataSource>
                 <%
                     }
                     if (rol == 2)
                     {
                 %>
                 <asp:DropDownList runat="server" ID="cargo2" DataSourceID="BuscarCargo2" DataTextField="Nombre" DataValueField="idRol" CssClass="textbox"></asp:DropDownList>
-                <asp:SqlDataSource ID="BuscarCargo2" runat="server" ConnectionString="<%$ ConnectionStrings:BUGTRACKERConnectionString %>" SelectCommand="SELECT [idRol], [Nombre] FROM [ROL] WHERE [idRol] > 2 ORDER BY [idRol] "></asp:SqlDataSource>
+                <asp:SqlDataSource ID="BuscarCargo2" runat="server" ConnectionString="Data Source=FELIPEKD-PC;Initial Catalog=BUGTRACKER;Integrated Security=True" SelectCommand="SELECT [idRol], [Nombre] FROM [ROL] WHERE [idRol] > 2 ORDER BY [idRol] "></asp:SqlDataSource>
                 <%
                         }
 
