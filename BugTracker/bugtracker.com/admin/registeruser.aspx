@@ -43,14 +43,14 @@
         {
             String[] usuario = (String[])Session["Usuario"];
             int rol = Int32.Parse(usuario[3]);
-            if (rol > 1)
+            if (rol > 2)
             {
                 Response.Redirect("../blockedaccess.aspx", false);
             }
         }
         else
         {
-            Response.Redirect("../blockedaccess.aspx", false);
+            Response.Redirect("../login.aspx?msg=3", false);
         }
         if (Request.QueryString.Get("msg") != null)
         {
@@ -58,10 +58,10 @@
             switch (msg)
             {
                 case 1:
-                    Response.Write("<div class=\"error\"><p class=\"icon-close\"></p><p class=\"mensaje\">Campos Obligatorios Vacios</p></div><br />");
+                    Response.Write("<div class=\"error\"><p class=\"icon-icon-error\"></p><p class=\"mensaje\">Campos Obligatorios Vacios</p></div><br />");
                     break;
                 case 2:
-                    Response.Write("<div class=\"error\"><p class=\"icon-close\"></p><p class=\"mensaje\">Este Email ya esta registrado</p></div><br />");
+                    Response.Write("<div class=\"error\"><p class=\"icon-icon-error\"></p><p class=\"mensaje\">Este Email ya esta registrado</p></div><br />");
                     break;
                 case 3:
                     int id = 0;
@@ -110,14 +110,14 @@
                         {
                 %>
                 <asp:DropDownList runat="server" ID="cargo" DataSourceID="BuscarCargo" DataTextField="Nombre" DataValueField="idRol" CssClass="textbox"></asp:DropDownList>
-                <asp:SqlDataSource ID="BuscarCargo" runat="server" ConnectionString="Data Source=FELIPEKD-PC;Initial Catalog=BUGTRACKER;Integrated Security=True" SelectCommand="SELECT [idRol], [Nombre] FROM [ROL] WHERE [idRol] > 1 ORDER BY [idRol] "></asp:SqlDataSource>
+                <asp:SqlDataSource ID="BuscarCargo" runat="server" ConnectionString="Data Source=STORMTK-PC;Initial Catalog=BUGTRACKER;Integrated Security=True" SelectCommand="SELECT [idRol], [Nombre] FROM [ROL] WHERE [idRol] > 1 ORDER BY [idRol] "></asp:SqlDataSource>
                 <%
                     }
                     if (rol == 2)
                     {
                 %>
                 <asp:DropDownList runat="server" ID="cargo2" DataSourceID="BuscarCargo2" DataTextField="Nombre" DataValueField="idRol" CssClass="textbox"></asp:DropDownList>
-                <asp:SqlDataSource ID="BuscarCargo2" runat="server" ConnectionString="Data Source=FELIPEKD-PC;Initial Catalog=BUGTRACKER;Integrated Security=True" SelectCommand="SELECT [idRol], [Nombre] FROM [ROL] WHERE [idRol] > 2 ORDER BY [idRol] "></asp:SqlDataSource>
+                <asp:SqlDataSource ID="BuscarCargo2" runat="server" ConnectionString="Data Source=STORMTK-PC;Initial Catalog=BUGTRACKER;Integrated Security=True" SelectCommand="SELECT [idRol], [Nombre] FROM [ROL] WHERE [idRol] > 2 ORDER BY [idRol] "></asp:SqlDataSource>
                 <%
                         }
 

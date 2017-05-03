@@ -24,7 +24,7 @@ CREATE TABLE USUARIO(/*Tabla Usuario*/
 CREATE TABLE PROYECTO(/*Tabla Proyecto*/
 	idProyecto	int identity Primary Key,
 	Nombre		varchar(60) NOT NULL,
-	Costo		Numeric(12,2) NOT NULL,
+	Costo		Numeric(14,2) NOT NULL,
 	FechaInicio date NOT NULL,
 	FechaFinal	date NOT NULL
 )

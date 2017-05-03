@@ -8,11 +8,11 @@ namespace BugTracker.bugtracker.com.consultas
 {
     public class projectos
     {
-        //SqlConnection Conexion = new SqlConnection("Data Source=STORMTK-PC;Initial Catalog=BUGTRACKER;Integrated Security=True");
-        SqlConnection Conexion = new SqlConnection("Data Source=FELIPEKD-PC;Initial Catalog=BUGTRACKER;Integrated Security=True");
-        public Boolean RegistrarCurso(string nombre, double monto, string inicio, string final)
+        SqlConnection Conexion = new SqlConnection("Data Source=STORMTK-PC;Initial Catalog=BUGTRACKER;Integrated Security=True");
+        //SqlConnection Conexion = new SqlConnection("Data Source=FELIPEKD-PC;Initial Catalog=BUGTRACKER;Integrated Security=True");
+        public Boolean RegistrarCurso(string nombre, double monto, DateTime inicio, DateTime final)
         {
-            String stg_sql = "INSERT INTO USUARIO(Nombre, Costo, FechaInicio, FechaFinal) VALUES(@Nombre, @monto, @Inicio, @Final)";
+            String stg_sql = "INSERT INTO PROYECTO(Nombre, Costo, FechaInicio, FechaFinal) VALUES(@Nombre, @monto, @Inicio, @Final)";
             try
             {
                 Conexion.Open();

@@ -31,7 +31,7 @@
         text-align: center;
     }
 
-        main .error .icon-close {
+        main .error .icon-error {
             width: 20px;
             display: inline-block;
             font-size: 15px;
@@ -178,7 +178,7 @@
             margin: 10px 0px;
             width: 680px;
             padding: 10px 0px;
-            padding-left: 20px;
+            padding-left: 10px;
             border-bottom: 1px dashed rgba(0, 50, 77, 0.42);
         }
 
@@ -190,6 +190,11 @@
                 text-align: left;
                 font-family: 'Roboto';
                 font-weight: bolder;
+            }
+
+            main .user .info .dato .presupuesto {
+                width: 150px;
+                text-align: right;
             }
 
             main .user .info .dato .textbox {
@@ -280,7 +285,7 @@
             display: inline-block;
             cursor: pointer;
             color: #ffffff;
-            font-family: Verdana;
+            font-family: 'Roboto';
             font-size: 15px;
             font-weight: bold;
             padding: 10px;

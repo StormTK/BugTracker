@@ -8,8 +8,8 @@ namespace BugTracker.bugtracker.com.consultas
 {
     public class usuario
     {
-        //SqlConnection Conexion = new SqlConnection("Data Source=STORMTK-PC;Initial Catalog=BUGTRACKER;Integrated Security=True");
-        SqlConnection Conexion = new SqlConnection("Data Source=FELIPEKD-PC;Initial Catalog=BUGTRACKER;Integrated Security=True");
+        SqlConnection Conexion = new SqlConnection("Data Source=STORMTK-PC;Initial Catalog=BUGTRACKER;Integrated Security=True");
+        //SqlConnection Conexion = new SqlConnection("Data Source=FELIPEKD-PC;Initial Catalog=BUGTRACKER;Integrated Security=True");
         public Boolean Login(String Email, String Password)
         {
             String stg_sql = "SELECT COUNT(*)FROM USUARIO WHERE Email = @Email AND PWDCOMPARE(@Pass, Contraseña ) = 1";
